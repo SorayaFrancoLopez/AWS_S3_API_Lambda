@@ -102,7 +102,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/catalog-shop/dev/1702665801814-2023-12-15T18:43:21.814Z/catalog-shop.zip"
+          "S3Key": "serverless/catalog-shop/dev/1702667931979-2023-12-15T19:18:51.979Z/catalog-shop.zip"
         },
         "Handler": "handler.get_items",
         "Runtime": "python3.9",
@@ -130,7 +130,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/catalog-shop/dev/1702665801814-2023-12-15T18:43:21.814Z/catalog-shop.zip"
+          "S3Key": "serverless/catalog-shop/dev/1702667931979-2023-12-15T19:18:51.979Z/catalog-shop.zip"
         },
         "Handler": "handler.payment",
         "Runtime": "python3.9",
@@ -158,7 +158,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/catalog-shop/dev/1702665801814-2023-12-15T18:43:21.814Z/catalog-shop.zip"
+          "S3Key": "serverless/catalog-shop/dev/1702667931979-2023-12-15T19:18:51.979Z/catalog-shop.zip"
         },
         "Handler": "handler.set_items",
         "Runtime": "python3.9",
@@ -186,7 +186,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/catalog-shop/dev/1702665801814-2023-12-15T18:43:21.814Z/catalog-shop.zip"
+          "S3Key": "serverless/catalog-shop/dev/1702667931979-2023-12-15T19:18:51.979Z/catalog-shop.zip"
         },
         "Handler": "handler.order_fullfilment",
         "Runtime": "python3.9",
@@ -207,44 +207,44 @@
         "OrderDashfullfilmentLogGroup"
       ]
     },
-    "GetDashitemsLambdaVersionPPht2HS6IGk0HTC9Z6QgwbQsKZp9gRdhC4Y8io8A": {
+    "GetDashitemsLambdaVersionXPVnPQMR4bEWgcVFwzWlfHZ7STMSTNuYXzV0VKjs8Q": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetDashitemsLambdaFunction"
         },
-        "CodeSha256": "C3iMc1+jDlyYhqiZjC3PmfVqV98c2nHzWeq6Ts0zlwQ="
+        "CodeSha256": "jihZaSyZObKlg6ZUb9p8R0NZf83VDuQU659SB2J2XX8="
       }
     },
-    "PaymentLambdaVersions2jamuaUvedkONeUxHLd0yox8C2jHKB08B1CUj8fg8U": {
+    "PaymentLambdaVersion9IapHraKvxKIbYZL3BmTU3TDxoHWRqvqXdYoZjgUNQ": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PaymentLambdaFunction"
         },
-        "CodeSha256": "C3iMc1+jDlyYhqiZjC3PmfVqV98c2nHzWeq6Ts0zlwQ="
+        "CodeSha256": "jihZaSyZObKlg6ZUb9p8R0NZf83VDuQU659SB2J2XX8="
       }
     },
-    "SetDashitemsLambdaVersioncC2QuE8nWSe8z4sExJCnQR5b0FZvoINFrdHKFMpGSk": {
+    "SetDashitemsLambdaVersionEodD8JwFrNtcoCy6GNE0cV352bL5cGq1LJ60Q5WyM": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "SetDashitemsLambdaFunction"
         },
-        "CodeSha256": "C3iMc1+jDlyYhqiZjC3PmfVqV98c2nHzWeq6Ts0zlwQ="
+        "CodeSha256": "jihZaSyZObKlg6ZUb9p8R0NZf83VDuQU659SB2J2XX8="
       }
     },
-    "OrderDashfullfilmentLambdaVersion42wgoowU2srFTOGmDIW4KzMqcDcxfbveldtQFK8rI": {
+    "OrderDashfullfilmentLambdaVersion2Hf8xTRl3h47ZtgG5R0q0rAo14zEI1ll3PKWUKCA0I": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "OrderDashfullfilmentLambdaFunction"
         },
-        "CodeSha256": "C3iMc1+jDlyYhqiZjC3PmfVqV98c2nHzWeq6Ts0zlwQ="
+        "CodeSha256": "jihZaSyZObKlg6ZUb9p8R0NZf83VDuQU659SB2J2XX8="
       }
     },
     "ApiGatewayRestApi": {
@@ -589,7 +589,7 @@
         "SetDashitemsLambdaPermissionApiGateway"
       ]
     },
-    "ApiGatewayDeployment1702665784047": {
+    "ApiGatewayDeployment1702667909111": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -787,7 +787,7 @@
     "GetDashitemsLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetDashitemsLambdaVersionPPht2HS6IGk0HTC9Z6QgwbQsKZp9gRdhC4Y8io8A"
+        "Ref": "GetDashitemsLambdaVersionXPVnPQMR4bEWgcVFwzWlfHZ7STMSTNuYXzV0VKjs8Q"
       },
       "Export": {
         "Name": "sls-catalog-shop-dev-GetDashitemsLambdaFunctionQualifiedArn"
@@ -796,7 +796,7 @@
     "PaymentLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PaymentLambdaVersions2jamuaUvedkONeUxHLd0yox8C2jHKB08B1CUj8fg8U"
+        "Ref": "PaymentLambdaVersion9IapHraKvxKIbYZL3BmTU3TDxoHWRqvqXdYoZjgUNQ"
       },
       "Export": {
         "Name": "sls-catalog-shop-dev-PaymentLambdaFunctionQualifiedArn"
@@ -805,7 +805,7 @@
     "SetDashitemsLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "SetDashitemsLambdaVersioncC2QuE8nWSe8z4sExJCnQR5b0FZvoINFrdHKFMpGSk"
+        "Ref": "SetDashitemsLambdaVersionEodD8JwFrNtcoCy6GNE0cV352bL5cGq1LJ60Q5WyM"
       },
       "Export": {
         "Name": "sls-catalog-shop-dev-SetDashitemsLambdaFunctionQualifiedArn"
@@ -814,7 +814,7 @@
     "OrderDashfullfilmentLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "OrderDashfullfilmentLambdaVersion42wgoowU2srFTOGmDIW4KzMqcDcxfbveldtQFK8rI"
+        "Ref": "OrderDashfullfilmentLambdaVersion2Hf8xTRl3h47ZtgG5R0q0rAo14zEI1ll3PKWUKCA0I"
       },
       "Export": {
         "Name": "sls-catalog-shop-dev-OrderDashfullfilmentLambdaFunctionQualifiedArn"
