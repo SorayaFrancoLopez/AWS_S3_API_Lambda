@@ -3,7 +3,7 @@
 
 # Serverless Ecommerce Architecture with AWS S3 and Lambda
 
-This architecture is designed to provide a scalable and cost-effective solution for your ecommerce application. By utilizing AWS S3 for secure and durable storage and Lambda for serverless compute power, we aim to streamline the development and deployment process while ensuring optimal performance.
+This architecture is designed to provide a cost-effective and serverless solution for your ecommerce application. By utilizing AWS S3 for secure and durable storage and Lambda for serverless compute power, we aim to streamline the development and deployment process while ensuring optimal performance.
 
 ## Overview
 
