@@ -1,0 +1,3 @@
+epsagon
+requests
+simplejson
