@@ -1,8 +1,6 @@
-## Example e-commerce catalog shop based on AWS Lambda
+## Serverless E-commerce Catalog on AWS
 
 ![Architecture](https://github.com/epsagon/serverless-catalog-shop/blob/master/architecture.png)
-
-# Serverless E-commerce Catalog on AWS
 
 This repository documents a developing of a serverless e-commerce catalog on AWS. Below are the key steps I followed in the process:
 
